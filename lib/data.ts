@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import  RoyaleTouche from "@/public/Royaletouche.png";
 import InteriorMaata from "@/public/InteriorMaata.png";
-import RaajSolar from "@/public/RaajSolar.png";
+import RaajSolar from "@/public/raajSolar.png";
 import SiddhGuru from "@/public/Siddhguru.png"
 import { LuGraduationCap } from "react-icons/lu";
 
