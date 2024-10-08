@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import "./globals.css";
-// import { Inter } from "next/font/google";
 import { Poppins } from 'next/font/google';
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
@@ -16,7 +15,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Utkarsh Yadav",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  description: "Utkarsh is a frontend react developer with 2 years of experience.",
 };
 
 export default function RootLayout({
