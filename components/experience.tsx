@@ -34,7 +34,7 @@ export default function Experience() {
               contentArrowStyle={{
                 borderRight:
                   theme === "light"
-                    ? "0.6rem solid #9ca3af"
+                    ? "0.6rem solid #000000"
                     : "0.6rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
@@ -47,7 +47,7 @@ export default function Experience() {
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-black dark:text-white/75">
                 {item.description}
               </p>
             </VerticalTimelineElement>
