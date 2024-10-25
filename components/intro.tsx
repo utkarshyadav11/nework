@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Utkarsh_portrait from "@/public/Final.png"
+import Utkarsh_portrait from "@/public/final.png"
 import React from "react";
 import "../app/globals.css"
 import { motion } from "framer-motion";
