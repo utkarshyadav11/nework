@@ -12,6 +12,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
+
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -65,8 +66,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
        
-        <span className="">Hello, I'm Utkarsh.</span> I'm a{" "}
-        <span className="">Frontend React Developer</span> with{" "}
+        <span className="">Hello, I'm Utkarsh,</span> a{" "}
+        <span className="">React Developer</span> with{" "}
         <span className="">2 years</span> of experience. I develop{" "}
         <span className="">web applications and dynamic user interfaces</span>. My focus is{" "}
         <span className="">React & Next.js</span>

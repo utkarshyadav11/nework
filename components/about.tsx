@@ -46,5 +46,8 @@ export default function About() {
         learning how to play the guitar.
       </p>
     </motion.section>
+
+
+
   );
 }

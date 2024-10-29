@@ -78,13 +78,15 @@ export const projectsData = [
       "Royale Touche, a plywood manufacturer, offers an online marketplace with 3D factory tours for an interactive experience.",
     tags: ["React", "Next.js", "Framer motion", "React Bootstrap", "Nodemailer", "Gsap"],
     imageUrl:RoyaleTouche,
+    projectLink: "https://plywood.royaletouche.com/",
   },
   {
     title: "Interiormaata",
     description:
       "Interiormaata, a renowned interior designer, showcases her minimalist style through interactive 3D elements on this visually stunning website.",
-    tags: ["React", "Next.js", "Tailwind", "Wordpress", "Redux", "Gsap"],
+    tags: ["React", "Next.js", "Tailwind", "Wordpress Api", "Redux", "Gsap"],
     imageUrl: InteriorMaata,
+    projectLink: "https://interiormaata.com/",
   },
   {
     title: "Raaj Solar",
@@ -92,12 +94,14 @@ export const projectsData = [
       "Raaj Solar, India’s leading solar panel manufacturer, unveils a sleek, mobile-optimized website built with React ",
     tags: ["React", "Nodemailer", "SCSS", "Framer motion" ,"Gsap"],
     imageUrl: RaajSolar,
+    projectLink: "https://raajsolar.com",
   },
   {
     title:"Siddhguru",
     description:"Siddhguru is a front-end site built with React, SCSS, and GSAP, providing seamless animations and a user-friendly experience for thousands daily.",
-    tags:["React", "SCSS", "Nodemailer","Wordpress", "Redux", "Gsap"],
+    tags:["React", "SCSS", "Nodemailer","Wordpress Api", "Redux", "Gsap"],
     imageUrl:SiddhGuru,
+    projectLink: "https://sribrahmrishiashram.org/",
     
   }
 
@@ -120,16 +124,13 @@ export const skillsData = [
   "Material UI",
   "JSON",
   "Styled Components",
-  "Deno",
   "Docker",
-  "Auth0",
+  "Authentication",
   "ShadCN",
   "Postman",
-  "Storybook",
   "MongoDB",
   "Redux",
   "Bun",
-  "Strapi",
   "Axios",
   "TanStack Query",
   "Wordpress API",
